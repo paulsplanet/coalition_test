@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--meta name="viewport" content="width=device-width, initial-scale=1.0"-->
+    <title>Los Angeles Mountains</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+	<script>
+	window.console = window.console || function(t) {};
+	</script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="navibar">
+            <div class="navibar__left"></div>
+            <div class="navibar__right">
+                <span class="navibar__right__span">01. HISTORY</span>
+                <span class="navibar__right__span">02. TEAM</span>
+            </div>
+        </div>
+    </header>
+
+    <div class="home"></div>
+
+    <div class="history">
+        <div class="container">
+            <div class="history__number">01.</div>
+            <div class="history__title">HISTORY</div>
+            <div class="history__content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+        </div>
+        <div class="wrapper">
+            <div class="container carousel owl-carousel">
+                <div class="card">
+                    <div class="card-inner inner01"></div>
+                </div>
+                <div class="card">
+                    <div class="card-inner inner02"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        $(".carousel").owlCarousel({
+        margin: 20,
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 2000,
+        autoplayHoverPause: true,
+        responsive: {
+          0:{
+            items:1,
+            nav: false
+          },
+          600:{
+            items:2,
+            nav: false
+          },
+          1000:{
+            items:3,
+            nav: false
+          },
+          1200:{
+            items:4,
+            nav: false
+          }
+        }
+        });
+    </script>
+
+    <div class="team">
+        <div class="team__wrap container">
+            <div class="team__number">02.</div>
+            <div class="team__title">CLIMB</div>
+            <div class="team__content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.</div>
+        </div>
+        <div class="team__navi">
+            <div class="team__navi__wrap">   
+                <span class="team__navi__mt1">MOUNTAIN 1</span>
+                <span class="team__navi__mt2">MOUNTAIN 2</span>
+            </div>
+        </div>
+        <div class="team__bg">
+            <div class="container">
+                <div class="team__schedule">
+                    <div class="team__schedule__title">SCHEDULE</div>
+                    <div>
+                        <span class="team__schedule__left">25 NOV 2016</span>
+                        <span class="team__schedule__right">Vestibulum viverra</span>
+                    </div>
+                    <div class="margin-bottom">
+                        <span class="team__schedule__left">28 NOV 2016</span>
+                        <span class="team__schedule__right">Vestibulum viverra</span>
+                    </div>
+                    <div class="margin-bottom">
+                        <span class="team__schedule__left">18 DEC 2016</span>
+                        <span class="team__schedule__right">Vestibulum viverra</span>
+                    </div>
+                    <div>
+                        <span class="team__schedule__left">7 JAN 2017</span>
+                        <span class="team__schedule__right">Vestibulum viverra</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer__wrap">
+            <div class="footer__logo"></div>
+            <div class="footer__copyright">
+                <span>COPYRIGHT 2016, ALL RIGHTS RESERVED</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="common.js"></script>
+</body>
+</html>

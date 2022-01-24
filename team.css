@@ -1,0 +1,163 @@
+.team {
+    
+    position: relative;
+}
+
+.team__wrap {
+    width: 940px !important;
+    margin: 0 auto;
+    top: 0;
+    height: 178px;
+    background: white;
+}
+
+.team__bg {
+    background: url(img/bg_03.jpg);
+    width: 100%;
+    height: 546px;
+    position: relative;
+    background-size: cover;
+}
+
+.team__number {
+    font-size: 135px;
+    font-weight: bold; 
+    position: absolute;
+    top: 0px;
+    color: #414f6b;
+    opacity: 0.5;
+}
+
+.team__title {
+    font-size: 32px;
+    font-weight: bold;
+    color: #414f6b;
+    position: absolute;
+    top: 80px;
+    left: 175px
+}
+
+.team__content {
+    line-height: 24px;
+    position: absolute;
+    top: 75px;
+    left: 300px
+}
+
+.team__navi {
+    background: #414f6b;
+    width: 100%;
+    height: 38px;
+}
+
+.team__navi__wrap {
+    display: flex;
+    justify-content: left;
+    width: 940px;
+    margin: 0 auto;
+}
+.team__navi__mt1 {
+    font-size: 20px;
+    font-weight: 600;
+    background-color: rgba(176, 180, 190);
+    color: #414f6b;
+    display: inline-block;
+    line-height: 38px;
+    padding: 0 15px;
+    text-decoration: underline;
+}
+
+.team__navi__mt2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(176, 180, 190);
+    display: inline-block;
+    line-height: 38px;  
+    padding: 0 15px;
+}
+
+.team__schedule {
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 350px;
+    height: 200px;
+    padding: 10px 35px;
+    position: absolute;
+    top: 100px;
+    left: 0px;
+}
+
+.team__schedule__title {
+    font-size: 32px;
+    color: #414f6b;
+    font-weight: bold;
+    
+}
+
+.team__schedule__right {
+    float: right;
+}
+
+.margin-bottom {
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .team__wrap {
+        position:relative;
+        width: 100% !important;
+        margin: 0 auto;
+        top: 0;
+        height: auto;
+        padding-bottom:10%;
+        background: white;
+    }
+    .team__number {
+        font-size: 80px;
+        font-weight: bold; 
+        position: relative;
+        top: 0px;
+        left:0;
+        color: #414f6b;
+        opacity: 0.5;
+    }
+    
+    .team__title {
+        font-size: 28px;
+        font-weight: bold;
+        color: #414f6b;
+        position: absolute;
+        top: 40px;
+        left: 120px;
+    }
+    
+    .team__content {
+        line-height: 24px;
+        position: relative;
+        top: auto;
+        left: auto;
+        padding-top:1%;
+    }
+    .team__navi__wrap {
+        display: flex;
+        justify-content: left;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .team__schedule {
+        background-color: rgba(255, 255, 255, 0.6);
+        width: 80%;
+        margin:0 auto;
+        height: 200px;
+        margin-top:15%;
+        padding: 10px 35px;
+        position: relative;
+        top: auto;
+        left: auto;
+    }
+    .team__schedule__title {
+        font-size: 24px;
+        color: #414f6b;
+        font-weight: bold;
+        
+    }
+}
